@@ -1,6 +1,6 @@
 /*
     url: https://github.com/quadrant-newmedia/HistoryInvalidation
-    license: https://github.com/quadrant-newmedia/HistoryInvalidation/LICENSE
+    license: https://github.com/quadrant-newmedia/HistoryInvalidation/blob/master/LICENSE
 */
 (function() {
     'use strict';
