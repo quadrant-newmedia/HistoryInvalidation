@@ -32,4 +32,4 @@
             localStorage.back_reload_invalidated = Date.now();
         },
     };
-})();.
+})();
