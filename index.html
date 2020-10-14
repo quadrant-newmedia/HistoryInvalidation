@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>History Invalidation Tests</title>
+    <script async src="HistoryInvalidation.js"></script>
+</head>
+<body>
+    For these tests, open your debugger and set a breakpoint for the <code>location.reload()</code> call, so you can verify when it runs.
+    <ol>
+        <li><a href="child.html">Go to child page</a>, then go back. Verify that we don't reload.</li>
+        <li><a href="child.html">Go to child page</a>, then click "Invalidate", then go back. Verify that we do reload.</li>
+        <li><a href="child.html" target="_blank">Open child in new window</a>, then click "Invalidate", then close child, then manually reload. Verify that we don't reload a second time.</li>
+    </ol>
+</body>
+</html>
